@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tecativa Login</title>
+</head>
+<body>
+    <header>
+        <img src="./assets/images/A logo.png" alt="Logo A - Image">
+        <span id="buttonList"><img src="https://img.icons8.com/color/50/000000/menu--v7.png"/></span>
+        <nav id="navBar" class="nav_movil">
+            <ul>
+                <li><a href="./landing.html">Inicio</a></li>
+                <li><a href="./login.html">Login</a></li>
+                <li><a href="./register.html">Registro</a></li>
+                <li><a href="">Mi cuenta</a></li>
+                <li><a href="./dashboard.html">Dashboard</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main_dashboard_container">
+        <img src="./assets/images/PokeApi.png" alt="Logo Pokemon Api">
+        <p>Ingresa el numero minimo y máximo</p>
+        <section class="inputs_data">
+            <div>
+                <label for=""minNum>Id minimo:</label>
+                <input type="number" id="minNum">
+            </div>
+            <button class="button" onclick="request()">Aceptar</button>
+            <div>
+                <label for=""maxNum>Id maximo:</label>
+                <input type="number" id="maxNum">
+            </div>
+        </section>
+        <section id="table" class="table_section">
+            <p>ID</p>
+            <p>Nombre</p>
+            <p>Imagen</p>
+            <p>Tipo</p>
+        </section>
+        <section class="grafic_section">
+            <p>Gráfica de especies ¡Click en las áreas and labels! </p>
+            <canvas id="myChart" width="300" height="300"></canvas>
+        </section>
+    </main>
+    <footer>
+        <section class="top_container">
+            <section class="left-information">
+                <img src="./assets/images/A logo.png" alt="Logo A - Image">
+                <ul>
+                    <li>Calle 80 # 457-456</li>
+                    <li>Telefono: 57456565</li>
+                    <li>Email: pruebas@tecactiva.com</li>
+                </ul>
+            </section>
+            <section class="right-menu">
+                <h4>Menu</h4>
+                <ul>
+                    <li><a href="./landing.html">Inicio</a></li>
+                    <li><a href="./login.html">Login</a></li>
+                    <li><a href="./register.html">Registro</a></li>
+                    <li><a href="">Mi cuenta</a></li>
+                    <li><a href="./dashboard.html">Dashboard</a></li>
+                </ul>
+            </section>
+        </section>
+        <section class="bottom_container">
+            <p>Hecho con 💡 por <a href="https://github.com/MauricioJCarrillo/20.moqup-tecactiva">@MauricioJCarrillo</a></p>
+            <p>Copyright 2022 - pruebas - Todos los derechos reservados</p>
+            <img src="./assets/icons/media_icons.png" alt="">
+        </section>
+    </footer>
+    <script src="./navBar_side.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- <script src="./index_RaM_api.js"></script> -->
+    <script src="./index_pok_api.js"></script>
+</body>
+</html>
