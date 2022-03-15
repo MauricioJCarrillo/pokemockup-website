@@ -29,7 +29,7 @@ header span img {
 }
 
 header nav {
-    padding-left: 25px;
+    margin-left: 25px;
 }
 
 header nav ul {
@@ -560,45 +560,28 @@ footer {
     }
 
     .nav_movil {
-        position: absolute;
-        display: none;
-        width: 200px;
-        height: auto;
-        top: 65px;
+        position: fixed;
+        display: inline;
+        width: 0px;
+        height: 100vh;
+        top: 61px;
         right: 0px;
         text-align: left;
         list-style: none;
-        background-color: white;
-        border: 1px solid rgb(161, 161, 168);
+        background-color: rgb(219, 213, 213);
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
+        transition: all 0.8s;
         z-index: 1;
     }
 
     .show {
-        display: block;
-        animation-duration: 1.5s;
-        -webkit-animation-duration: 1s;
-        animation-fill-mode: both;
-        -webkit-animation-fill-mode: both;
-        animation-name: fadeInLeft;
-        -webkit-animation-name: fadeInLeft;
-    }
-
-    @keyframes fadeInLeft {
-        from {
-            opacity: 1;
-            -webkit-transform: translate3d(100%,0,0);
-            transform: translate3d(100%,0,0);
-        }
-        to {
-            opacity: 1;
-            -webkit-transform: translate3d(0,0,0);
-            transform: translate3d(0,0,0);
-        }
+        width: 200px;
+        transition: all 0.8s;
     }
 
     .nav_movil ul {
+        width: 200px;
         flex-flow: column;
     }
 
