@@ -555,19 +555,13 @@ footer {
         justify-content: space-between;
     }
 
-    header nav {
-        display: none;
-    }
-
     .nav_movil {
         position: fixed;
-        display: inline;
         width: 0px;
         height: 100vh;
         top: 61px;
         right: 0px;
         text-align: left;
-        list-style: none;
         background-color: rgb(219, 213, 213);
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
