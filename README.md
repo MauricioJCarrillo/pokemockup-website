@@ -1,15 +1,15 @@
-# PokeMockup - Technical test
+# PokeMockup website
 
-This a technical test using HTML, CSS and JavaScript - AJAX.
+This is a mockup website using HTML, CSS and JavaScript. Fetching data witch AJAX.
 
-## GitHub Pages:
+## GitHub Pages
 
-[Practice - PokeMockup](https://mauriciojcarrillo.github.io/20.moqup-tecactiva/landing.html)
+[PokeMockup website](https://mauriciojcarrillo.github.io/pokemockup-website/landing.html)
 
-## Technologies and concepts:
+## Technologies and concepts
 
 - HTML.
 - CSS.
-- JavaScript
+- JavaScript.
 - Chart.js
 - Responsive Design.
